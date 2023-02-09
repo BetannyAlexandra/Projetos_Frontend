@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Dancing+Script:wght@500&family=Kanit:ital,wght@1,500&display=swap');
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #8FB9AA;
+  background-image: url("wallpapersden.com_k-beautiful-landscape-digital-art_1360x768.jpg");
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  
+
+}
+
+
+
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  background: #76217a;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 10px 5px 5px #602c22;
+  color: #123650;
+  font-size: 1em;
+  font-family: 'Caveat', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Kanit', sans-serif;
+}
+
+input, label{
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+input {
+  font-size: 24px;
+  height: 30px;
+  padding: 0 10px;
+}
+
+ input:focus {
+  outline: 1px solid #8FB9AA;
+}
+
+ button {
+  border: none;
+  background:#B2E7E8;
+  color:#602c22;
+  font-size: 18px;
+  font-weight: 70;
+  height: 30px;
+  cursor:pointer;
+  margin-top: 30px;
+  border-radius: 1px;
+  font-family: 'Caveat', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Kanit', sans-serif;
+}
+
+button:hover {
+  background: #304D63;
+}
